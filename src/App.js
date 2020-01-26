@@ -11,10 +11,6 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import './App.css';
 
-const app = new Clarifai.App({
- apiKey: '2a03d21f720f44149e244d025e884845'
-});
-
 class App extends Component {
   constructor() {
     super()
